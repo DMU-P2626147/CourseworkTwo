@@ -1,0 +1,179 @@
+body {
+  background-image: url(img/home.jpeg);
+  background-size: 175%;
+  background-position: 46% 15%;
+  background-repeat: repeat-y;
+}
+h1 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 7vw;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+  margin: 0;
+  opacity: 0.7;
+}
+h2 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 5vw;
+  text-align: center;
+  color: grey;
+  margin: 0;
+  opacity: 0.5;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+.social {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+}
+#btn {
+  background: grey; opacity: 0.7;
+  height: 6vw;
+  width: 20vw;
+  min-width: 100px;
+  border-radius: 10px;
+  font-size: 4vw;
+  font-family: "Copperplate", sans-serif;
+  color: white;
+  position: absolute;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  left: 40vw;
+  top: 35vw;
+}
+#btn #circle {
+  width: 10vw;
+  height: 6vw;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 5vw;
+  overflow: hidden;
+  transition: 300ms;
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+#btn:hover {
+  background: #0000;
+}
+#btn:hover #circle {
+  height: 6vw;
+  width: 15vw;
+  left: 5vw;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+#btn2 {
+  background: grey; opacity: 0.7;
+  height: 6vw;
+  width: 20vw;
+  min-width: 100px;
+  border-radius: 10px;
+  font-size: 4vw;
+  font-family: "Copperplate", sans-serif;
+  color: white;
+  position: absolute;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  left: 40vw;
+  top: 45vw
+}
+#btn2 #circle2 {
+  width: 10vw;
+  height: 6vw;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 5vw;
+  overflow: hidden;
+  transition: 200ms;
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+#btn2:hover {
+  background: #0000;
+}
+#btn2:hover #circle2 {
+  height: 6vw;
+  width: 15vw;
+  left: 5vw;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+
+/* Social media style */
+
+.fa {
+  padding: 5px;
+  font-size: 3vw;
+  width: 4vw;
+  height: 4vw;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+/* hover effect */
+.fa:hover {
+  opacity: 1;
+}
+/* a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Youtube */
+.fa-youtube {
+  background: #c4302b;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #8134AF;
+  color: white;
+}

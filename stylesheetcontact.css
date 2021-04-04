@@ -1,0 +1,178 @@
+body {
+  background-image: url(img/contact.jpeg);
+  background-size: 155%;
+  background-position: 60% 0%;
+  background-repeat: repeat-y;
+}
+h1 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 7vw;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+  margin: 0;
+  opacity: 0.7;
+}
+p {
+  font-family: "Copperplate", sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  margin: 0;
+  opacity: 0.7;
+  color: white;
+}
+  .return {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 10px;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+  }
+  .return:hover {
+    background-color: #0000;
+    opacity: 1;
+    color: white;
+  }
+  .return:visited {
+    text-decoration: none;
+  }
+  .previous {
+    background-color: #0000;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    position: fixed;
+    top: 15px;
+    left: 25px;
+  }
+  .email {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 150px;
+}
+  .emaillink {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  .emaillink:hover {
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .phone {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 235px;
+  }
+  .phonelink {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  .phonelink:hover {
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .address {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 320px;
+  }
+  .addresslink {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  .addresslink:hover {
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .instagram {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 405px;
+  }
+  .instalink:hover {
+    color: #8134AF;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .instalink {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  .facebook {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 490px;
+  }
+  .facebooklink:hover {
+    color: #3B5998;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .facebooklink {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }  .twitter {
+      width: 100%;
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      top: 570px;
+    }
+    .twitterlink:hover {
+      color: #55ACEE;
+      opacity: 1;
+      text-decoration: none;
+    }
+    .twitterlink {
+      color: white;
+      opacity: 0.7;
+      text-decoration: none;
+    }
+    .fa-youtube:hover {
+      color: red;
+    }
+    .youtube {
+      width: 100%;
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      top: 660px;
+    }
+    .youtubelink:hover {
+      color: #c4302b;
+      opacity: 1;
+      text-decoration: none;
+    }
+    .youtubelink {
+      color: white;
+      opacity: 0.7;
+      text-decoration: none;
+    }
+    .footer {
+      width: 100%;
+      color: white;
+      text-decoration: none;
+      position: absolute;
+      justify-content: center;
+      bottom: 20px;
+    }
