@@ -2,7 +2,6 @@ body {
   background-image: url(img/gallery.jpeg);
   background-size: 175%;
   background-position: 50% 0%;
-  background-repeat: repeat-y;
   background-attachment: fixed;
 }
 h1 {
