@@ -1,18 +1,28 @@
+/* dictating the image background controls */
 body {
   background-image: url(img/home.jpeg);
+/* zoomed in to better fit page */
   background-size: 175%;
+/* positioned to fit page */
   background-position: 46% 15%;
+/* repeat background up and down if need be */
   background-repeat: repeat-y;
 }
+
+/* basic the H1 controls */
 h1 {
+/* main font and backup font */
   font-family: "Copperplate", sans-serif;
   font-size: 7vw;
   text-align: center;
+/* padding to drop the text */
   padding-top: 60px;
   color: white;
   margin: 0;
   opacity: 0.7;
 }
+
+/* basic H2 controls */
 h2 {
   font-family: "Copperplate", sans-serif;
   font-size: 5vw;
@@ -21,32 +31,44 @@ h2 {
   margin: 0;
   opacity: 0.5;
 }
+/* to remove the link underline */
 a:link {
   color: white;
   text-decoration: none;
 }
+
+/* button remains the same once visited */
 a:visited {
   color: white;
   text-decoration: none;
 }
+
+/* social button positioning */
 .social {
   position: fixed;
   width: 100%;
+/* flex to align items */
   display: flex;
+/* to centre items */
   justify-content: center;
   align-items: center;
+/* 20px from the bottom of page */
   bottom: 20px;
 }
+
+/* gallery button positioning */
 #btn {
   background: grey; opacity: 0.7;
   height: 6vw;
   width: 20vw;
+/* button made more round rather than rectangle */
   min-width: 100px;
   border-radius: 10px;
   font-size: 4vw;
   font-family: "Copperplate", sans-serif;
   color: white;
   position: absolute;
+/* transition duration */
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
   display: flex;
@@ -58,6 +80,8 @@ a:visited {
   left: 40vw;
   top: 35vw;
 }
+
+/* gallery button transition */
 #btn #circle {
   width: 10vw;
   height: 6vw;
@@ -77,9 +101,13 @@ a:visited {
         -ms-user-select: none;
             user-select: none;
 }
+
+/* gallery button fade when hovering */
 #btn:hover {
   background: #0000;
 }
+
+/* dictates the underline transition when hovering */
 #btn:hover #circle {
   height: 6vw;
   width: 15vw;
@@ -87,6 +115,9 @@ a:visited {
   border-radius: 0;
   border-bottom: 2px solid #eee;
 }
+
+/* contact button positioning */
+/* all same controls as first btn */
 #btn2 {
   background: grey; opacity: 0.7;
   height: 6vw;
@@ -108,6 +139,8 @@ a:visited {
   left: 40vw;
   top: 45vw
 }
+
+/* contact button transition */
 #btn2 #circle2 {
   width: 10vw;
   height: 6vw;
@@ -127,9 +160,13 @@ a:visited {
         -ms-user-select: none;
             user-select: none;
 }
+
+/* background fades to clear when hovering */
 #btn2:hover {
   background: #0000;
 }
+
+/* underline transition when hovering */
 #btn2:hover #circle2 {
   height: 6vw;
   width: 15vw;
@@ -138,40 +175,46 @@ a:visited {
   border-bottom: 2px solid #eee;
 }
 
-/* Social media style */
-
+/* Social media icon style */
 .fa {
+/* gives the icons a space between them */
   padding: 5px;
   font-size: 3vw;
+/* how big the icon is */
   width: 4vw;
   height: 4vw;
   text-align: center;
   text-decoration: none;
   opacity: 0.5;
+/* make icon a circle */
   border-radius: 50%;
   margin: 2px;
 }
 
-/* hover effect */
+/* social buttons become clearer when hovering  */
 .fa:hover {
   opacity: 1;
 }
+
 /* a specific color for each brand */
-/* Facebook */
+/* Facebook colour */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
+
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
+
 /* Youtube */
 .fa-youtube {
   background: #c4302b;
   color: white;
 }
+
 /* Instagram */
 .fa-instagram {
   background: #8134AF;

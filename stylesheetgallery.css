@@ -1,9 +1,13 @@
+/* dictating the image background controls */
 body {
   background-image: url(img/gallery.jpeg);
   background-size: 175%;
   background-position: 50% 0%;
+  background-repeat: repeat-y;
   background-attachment: fixed;
 }
+
+/* dictating the H1 controls */
 h1 {
   font-family: "Copperplate", sans-serif;
   font-size: 7vw;
@@ -13,6 +17,8 @@ h1 {
   margin: 0;
   opacity: 0.7;
 }
+
+/* dictating H2 controls */
 h2 {
   font-family: "Copperplate", sans-serif;
   font-size: 5vw;
@@ -21,7 +27,10 @@ h2 {
   margin: 0;
   opacity: 0.5;
 }
+
+/* return button position */
 .return {
+  position: fixed;
   text-decoration: none;
   display: inline-block;
   padding: 2px 10px;
@@ -29,14 +38,20 @@ h2 {
   color: white;
   opacity: 0.7;
 }
+
+/* return button becomes clearer when hovering */
 .return:hover {
   background-color: #0000;
   opacity: 1;
   color: white;
 }
+
+/* return buttons remains the same after clicking */
 .return:visited {
   text-decoration: none;
 }
+
+/* retur button shape and color */
 .previous {
   background-color: #0000;
   color: white;
@@ -47,6 +62,8 @@ h2 {
   top: 15px;
   left: 25px;
 }
+
+/* gallery row rules */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -54,20 +71,21 @@ h2 {
     justify-content: center;
     text-align: center;
   }
+
+/* gallery hover shadow for clarity */
 .hover-shadow:hover {
   box-shadow: 0px 0px 20px 0;
   color: black;
-
 }
 
-  /* Create four equal columns that sits next to each other */
-  .column {
+/* Create four equal columns that sits next to each other */
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
 
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 45%;
@@ -87,4 +105,3 @@ h2 {
       flex: 100%;
       max-width: 100%;
     }
-  }
