@@ -13,12 +13,15 @@ body {
 h1 {
 /* main font and backup font */
   font-family: "Copperplate", sans-serif;
+/* percentage of viewport width to allow for varied screensizes */
   font-size: 7vw;
   text-align: center;
 /* padding to drop the text */
   padding-top: 60px;
+/* text colour */
   color: white;
   margin: 0;
+/* dropped opacity to soften intencity */
   opacity: 0.7;
 }
 
